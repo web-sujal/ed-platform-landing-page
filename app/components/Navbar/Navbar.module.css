@@ -43,15 +43,3 @@
   color: var(--accent);
   cursor: pointer;
 }
-
-.joinUs {
-  background-color: var(--accent);
-  padding: 15px 25px;
-  border-radius: 5px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-  cursor: pointer;
-}

@@ -2,6 +2,7 @@ import Image from "next/image";
 
 import Link from "next/link";
 import styles from "./Navbar.module.css";
+import ActionButton from "../ActionButton/ActionButton";
 
 const Navbar = () => {
   return (
@@ -28,17 +29,17 @@ const Navbar = () => {
           <Link href="#">
             <button className={styles.login}>Login</button>
           </Link>
-          <Link href="#">
-            <button className={styles.joinUs}>
-              Join Us
+          <ActionButton
+            label="Join Us"
+            icon={
               <Image
                 src="/assets/arrow-right-svgrepo-com.svg"
                 alt="arrow-right"
                 height={18}
                 width={18}
               />
-            </button>
-          </Link>
+            }
+          />
         </div>
       </div>
     </nav>
