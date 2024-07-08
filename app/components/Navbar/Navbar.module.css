@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  height: 91px;
+  /* height: 5.68rem; */
+  padding: 0 12.18rem;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.logo {
+  font-size: 24px;
+  margin-right: 5.43rem;
+  cursor: pointer;
+}
+
+.rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.linksContainer {
+  display: flex;
+  gap: 21px;
+}
+
+.link {
+  color: var(--sub-heading);
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.8rem;
+}
+
+.login {
+  color: var(--accent);
+  cursor: pointer;
+}
+
+.joinUs {
+  background-color: var(--accent);
+  padding: 15px 25px;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  cursor: pointer;
+}
