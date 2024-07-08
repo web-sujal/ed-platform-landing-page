@@ -7,6 +7,7 @@ interface ActionButtonProps {
   label?: string;
   icon?: React.ReactNode;
   padding?: string;
+  borderRadius?: string;
 }
 
 const ActionButton: React.FC<ActionButtonProps> = ({
@@ -14,10 +15,11 @@ const ActionButton: React.FC<ActionButtonProps> = ({
   label,
   icon,
   padding = "15px 25px",
+  borderRadius = "4px",
 }) => {
   return (
     <Link href={href}>
-      <button style={{ padding }} className={styles.container}>
+      <button style={{ padding, borderRadius }} className={styles.container}>
         {label && label}
         {icon && icon}
       </button>

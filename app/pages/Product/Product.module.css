@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 0 12rem;
+}
+
+.leftContainer {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 35px;
+}
+
+.dash {
+  border: 7px solid var(--dash);
+  width: 94px;
+}
+
+.title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--sub-heading);
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  color: var(--accent);
+}
+
+.link:hover .rightIcon {
+  transform: translateX(5px);
+  transition: transform 0.3s ease-in;
+}
+
+.rightContainer {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 35px 40px;
+  background-color: white;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+.cardTitle {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.cardDash {
+  border: 2px solid var(--dash);
+  width: 50px;
+}
+
+.cardDesc {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--sub-heading);
+  max-width: 12rem;
+}
