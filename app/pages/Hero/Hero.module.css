@@ -3,3 +3,79 @@
   flex-direction: column;
   background-color: var(--bg-primary);
 }
+
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  height: 100%;
+  width: 100%;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+  flex: 1;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 30px;
+  flex: 1;
+  margin-left: auto;
+  padding-left: 8.25rem;
+  width: 100%;
+}
+
+.welcome {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.title {
+  font-size: 3.62rem;
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: var(--sub-heading);
+}
+
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.learnMore {
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 5px;
+  padding: 15px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.imgContainer {
+  position: relative;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+/* .img {
+  position: absolute;
+} */
