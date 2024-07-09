@@ -80,3 +80,20 @@
   color: var(--sub-heading);
   max-width: 12rem;
 }
+
+@media (max-width: 740px) {
+  .container {
+    flex-direction: column;
+    margin: 9rem 0;
+    padding: 0 2rem;
+  }
+
+  .leftContainer {
+    gap: 15px;
+  }
+
+  .rightContainer {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

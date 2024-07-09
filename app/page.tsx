@@ -9,9 +9,9 @@ export default function Home() {
     <main className="">
       <Hero />
       <Product />
-      <Pricing />
-      <Contact />
-      <Footer />
+      {/* <Pricing /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
     </main>
   );
 }
