@@ -8,12 +8,14 @@
   padding: 0 12.18rem;
   font-size: 14px;
   font-weight: 700;
+  width: 100%;
 }
 
 .logo {
   font-size: 24px;
   margin-right: 5.43rem;
   cursor: pointer;
+  color: var(--heading);
 }
 
 .rightSide {
@@ -21,6 +23,10 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+.menuBtn {
+  margin-left: auto;
 }
 
 .linksContainer {
@@ -42,4 +48,45 @@
 .login {
   color: var(--accent);
   cursor: pointer;
+}
+
+.mobileMenuModal {
+  position: fixed;
+  z-index: 30;
+  height: 100vh;
+  width: 300px;
+  bottom: 0;
+  right: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-primary);
+  box-shadow: -4px 1px 33px -3px rgba(0, 0, 0, 0.75);
+}
+
+.closeBtn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.mobileLinksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 0 10rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 6rem;
+  }
 }
