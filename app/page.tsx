@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import Contact from "./pages/Contact/Contact";
 import Hero from "./pages/Hero/Hero";
 import Pricing from "./pages/Pricing/Pricing";
@@ -10,6 +11,7 @@ export default function Home() {
       <Product />
       <Pricing />
       <Contact />
+      <Footer />
     </main>
   );
 }

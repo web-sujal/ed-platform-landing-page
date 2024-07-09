@@ -31,7 +31,7 @@ const UserCard: React.FC<UserCardProps> = ({ userSrc, name, profession }) => {
           <div className={styles.icon}>
             <Image
               src="/assets/instagram.svg"
-              alt="facebook-icon"
+              alt="instagram-icon"
               height={24}
               width={24}
             />
@@ -39,7 +39,7 @@ const UserCard: React.FC<UserCardProps> = ({ userSrc, name, profession }) => {
           <div className={styles.icon}>
             <Image
               src="/assets/twitter.svg"
-              alt="facebook-icon"
+              alt="twitter-icon"
               height={24}
               width={24}
             />
