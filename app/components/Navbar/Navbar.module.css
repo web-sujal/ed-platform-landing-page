@@ -86,7 +86,11 @@
 }
 
 @media (max-width: 768px) {
+  .logo {
+    font-size: 1.3rem;
+  }
+
   .container {
-    padding: 0 6rem;
+    padding: 0 2rem;
   }
 }

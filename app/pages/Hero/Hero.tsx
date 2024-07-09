@@ -25,7 +25,7 @@ const Hero = () => {
             </h4>
 
             <div className={styles.cta}>
-              <ActionButton label="Join Us" padding="15px 40px" />
+              <ActionButton label="Join Us" padding="15px 55px" />
               <Link href="#">
                 <button className={styles.learnMore}>Learn More</button>
               </Link>
@@ -35,7 +35,12 @@ const Hero = () => {
 
         {/* image */}
         <div className={styles.imgContainer}>
-          <Image src="/assets/hero-cover-1.png" alt="hero-img" fill />
+          <Image
+            src="/assets/hero-cover-1.png"
+            alt="hero-img"
+            className={styles.img}
+            fill
+          />
         </div>
       </div>
     </section>
