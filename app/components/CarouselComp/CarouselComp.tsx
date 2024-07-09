@@ -34,6 +34,26 @@ const usersData = [
     name: "Julian Jameson",
     profession: "Profession",
   },
+  {
+    userSrc: "/assets/user-cover-1.png",
+    name: "Julian Jameson",
+    profession: "Profession",
+  },
+  {
+    userSrc: "/assets/user-cover-2.png",
+    name: "Julian Jameson",
+    profession: "Profession",
+  },
+  {
+    userSrc: "/assets/user-cover-3.png",
+    name: "Julian Jameson",
+    profession: "Profession",
+  },
+  {
+    userSrc: "/assets/user-cover-4.png",
+    name: "Julian Jameson",
+    profession: "Profession",
+  },
 ];
 
 const CarouselComp = () => {
@@ -41,7 +61,7 @@ const CarouselComp = () => {
     <Swiper
       modules={[Autoplay]}
       spaceBetween={30}
-      slidesPerView={4}
+      slidesPerView={1}
       loop={true}
       centeredSlides={false}
       autoplay={{ delay: 3000, disableOnInteraction: false }}
@@ -56,7 +76,7 @@ const CarouselComp = () => {
           spaceBetween: 40,
           centeredSlides: true,
         },
-        1024: {
+        1100: {
           slidesPerView: 4,
           spaceBetween: 30,
           centeredSlides: false,
