@@ -4,6 +4,7 @@
   justify-content: center;
   background-color: var(--bg-primary);
   padding: 10rem 0;
+  width: 100%;
 }
 
 .wrapper {
@@ -47,4 +48,14 @@
   letter-spacing: 0.20000000298023224px;
   text-align: center;
   color: var(--sub-heading);
+}
+
+@media (max-width: 540px) {
+  .textContainer {
+    padding: 0 3rem;
+  }
+
+  .paragraph {
+    padding: 0 2rem;
+  }
 }
